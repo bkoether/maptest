@@ -112,6 +112,7 @@ body{
     background-color: #bbb;
     margin: 10px auto;
 }
+
 #main{
     width: 750px;
     float: left;
@@ -147,6 +148,9 @@ body{
   left: 500px;
 }
 
+.hide{
+  display: none;
+}
 
 
 

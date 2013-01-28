@@ -25,13 +25,14 @@
         $(this).droppable('disable');
         $(this).addClass('dropped');
       }
-      else{
-
-      }
     }
   });
   $('.drop').each(function(e) {
     var num = e + 1;
     $(this).droppable('option', 'accept', '#task-' + num);
   });
+
+  $('.drop').on('click', '.drag', function() {
+    $('.info', this).toggleClass('hide');
+  })
 })(jQuery);
