@@ -2,8 +2,9 @@
   $('.drag').draggable({
     cursor: "crosshair",
     zIndex: 2700,
-    appendTo: "body",
+    appendTo: "#main",
     revert: true,
+    snap: true,
   });
 
   $('.drop').droppable({
